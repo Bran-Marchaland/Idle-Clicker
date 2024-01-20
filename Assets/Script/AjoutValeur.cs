@@ -7,9 +7,10 @@ public class AjoutValeur : MonoBehaviour
 
    
     public Base bases;
+    public int ajoutsBases = 1; 
 
     public void clic()
     {
-        bases.ValeursMonetaire += 1;
+        bases.ValeursMonetaire += ajoutsBases;
     }
 }
